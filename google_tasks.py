@@ -9,6 +9,8 @@ from google.auth.transport.requests import Request
 ''' Google Task API to retrieve task list 
     and tasks '''
 
+# If modifying these scopes, delete the file token.pickle.
+SCOPES = ['https://www.googleapis.com/auth/tasks.readonly']
 
 class GoogleTasks:
     ''' Google Tasks class '''
