@@ -35,6 +35,7 @@ class GoogleTasks:
         token_path = os.path.join(configpath, 'token.pickle')
         print(f'Reading token {token_path}')
         if os.path.exists(token_path):
+            print(f'Detected token: {token_path}')
             with open(token_path, 'rb') as token:
                 creds = pickle.load(token)
         # If there are no (valid) credentials available, let the user log in.
