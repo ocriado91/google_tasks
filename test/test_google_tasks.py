@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import pytest
-from google_tasks import GoogleTasks
+from src.google_tasks import GoogleTasks
 
 
 def test_tasklist():
